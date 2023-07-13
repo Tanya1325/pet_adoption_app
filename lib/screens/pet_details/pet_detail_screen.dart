@@ -128,7 +128,7 @@ class _PetsDetailScreenState extends State<PetsDetailScreen> {
     var newData = decodedData.entries.map((e) => e.key).toList();
 
     if (!newData.contains(widget.animalData?.id)) {
-      decodedData!.putIfAbsent((widget.animalData?.id).toString(),
+      decodedData.putIfAbsent((widget.animalData?.id).toString(),
           () => widget.animalData ?? AnimalData());
     }
     String data = json.encode(decodedData);

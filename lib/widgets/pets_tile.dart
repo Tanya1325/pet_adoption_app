@@ -28,9 +28,9 @@ class PetsTile extends StatelessWidget {
             child: Card(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12.0)),
-              color: Theme.of(context).brightness == Brightness.dark?animalData?.isAdopted == true
-                  ? Colors.grey.shade200
-                  : Colors.white:Colors.deepPurpleAccent.withOpacity(0.5),
+              color: Theme.of(context).brightness == Brightness.dark
+                  ? Colors.deepPurpleAccent.withOpacity(0.5)
+                  : animalData?.isAdopted == true?Colors.grey.shade200:Colors.white,
               elevation: 8.0,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,

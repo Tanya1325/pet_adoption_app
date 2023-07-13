@@ -5,6 +5,7 @@ class AppTheme {
       scaffoldBackgroundColor: Colors.white,
       primaryColor: const Color(0xFF7a8dc7),
       cardColor: Colors.white,
+      brightness: Brightness.light,
       textTheme: const TextTheme(
           headlineLarge: TextStyle(
               fontSize: 22, fontWeight: FontWeight.w600, color: Colors.black),
@@ -18,6 +19,7 @@ class AppTheme {
   static ThemeData darkTheme = ThemeData(
       primaryColor: Colors.deepPurpleAccent,
       scaffoldBackgroundColor: Colors.black38,
+      brightness: Brightness.dark,
       cardColor: Colors.black,
       textTheme: const TextTheme(
           headlineLarge: TextStyle(

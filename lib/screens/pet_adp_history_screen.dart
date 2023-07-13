@@ -3,9 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:pet_adoption_app/models/adopted_pets_data_model.dart';
 import 'package:pet_adoption_app/models/animal_model.dart';
-import 'package:pet_adoption_app/screens/pets_list/pets_list_screen.dart';
 import 'package:pet_adoption_app/utils/app_string_constants.dart';
-import 'package:pet_adoption_app/widgets/custom_app_bar_widget.dart';
 import 'package:pet_adoption_app/widgets/pets_tile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
